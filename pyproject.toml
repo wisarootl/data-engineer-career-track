@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "data_engineer_career_track"
+version = "0.1.0"
+description = ""
+authors = ["Wisaroot Lertthaweedech <l.wisaroot@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+
+[tool.poetry.group.dev.dependencies]
+black = { version = "*", extras = ["jupyter"] }
+isort = "*"
+ipykernel = "*"
+ruff = "*"
+mypy = "*"
+pre-commit = "*"
+pandas = "*"
+numpy = "*"
+apache-airflow = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
