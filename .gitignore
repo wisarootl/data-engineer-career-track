@@ -338,3 +338,9 @@ cython_debug/
 
 # # jupyter notebook
 # *.ipynb
+
+# introduction-to-dbt
+introduction-to-dbt/nyc_yellow_taxi/target/
+introduction-to-dbt/nyc_yellow_taxi/dbt_packages/
+introduction-to-dbt/nyc_yellow_taxi/logs/
+introduction-to-dbt/nyc_yellow_taxi/dbt.duckdb

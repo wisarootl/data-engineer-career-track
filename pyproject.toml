@@ -18,6 +18,8 @@ pre-commit = "*"
 pandas = "*"
 numpy = "*"
 apache-airflow = "*"
+dbt-core = "*"
+dbt-duckdb = "*"
 
 
 [build-system]

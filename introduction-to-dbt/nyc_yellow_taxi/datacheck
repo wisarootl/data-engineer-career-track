@@ -16,3 +16,4 @@ def print_table(query: str):
 print_table("select * from taxi_rides_raw limit 10")
 print_table("select count(*) as total_rides from taxi_rides_raw")
 print_table("select * from total_creditcard_riders_by_day")
+print_table("select * from nynj_zipcodes")
